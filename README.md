@@ -12,6 +12,10 @@ I develop a website with framework "Laravel 9" . a website like Moupon and Takhf
 <code>npm run dev</code>
 
 
+در ادامه فولدر پابلیک را به storage متصل میکنیم:
+
+<code>php artisan storage:link</code>
+
 دستور زیر را جهت اضافه کردن یوزر پیاده کنید؛ رمز تمام کاربران 123456123 می باشد:
 
 <code>php artisan migrate --seed</code>

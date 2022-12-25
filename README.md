@@ -1,7 +1,18 @@
 # Sample-project-Iran-coupon
 I develop a website with framework "Laravel 9" . a website like Moupon and Takhfifan.
 
-توجه: لطفا قبل از ران گرفتن پروژه ، دستور زیر را جهت اضافه کردن یوزر پیاده کنید؛ رمز تمام کاربران 123456123 می باشد:
+توجه: لطفا قبل از ران گرفتن پروژه ، دستورات زیر را اجرا نمائید:
+
+ابتدا سه دستور زیر را به ترتیب اجرا نمائید تا کتابخانه ها و ملزومات پروژه به آن اضافه شود:
+
+<code>composer install</code>
+
+<code>npm install</code>
+
+<code>npm run dev</code>
+
+
+دستور زیر را جهت اضافه کردن یوزر پیاده کنید؛ رمز تمام کاربران 123456123 می باشد:
 
 <code>php artisan migrate --seed</code>
 
